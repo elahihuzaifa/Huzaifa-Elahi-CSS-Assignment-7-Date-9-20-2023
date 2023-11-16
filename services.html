@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthcare</title>
+    <link rel="icon" type="image/x-icon" href="Images/image 16.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="services.css" />
+  </head>
+  <body>
+    <!-- top-header -->
+    <header>
+      <!-- <div class="container"> -->
+      <nav class="navbar navbar-expand-lg mt-4">
+        <div class="container">
+          <div class="d-flex justify-content-start logo">
+            <a href="index.html"><img src="Images/header_logo.png" alt="" /></a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="true"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+              <li class="nav-item px-2 d-flex align-items-center">
+                <a
+                  class="nav-link pg1 active pages_1 link_header"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item px-2 d-flex align-items-center">
+                <a
+                  class="nav-link pg1 active pages_1 link_header"
+                  aria-current="page"
+                  href="services.html"
+                  >Service</a
+                >
+              </li>
+              <li class="nav-item px-2 d-flex align-items-center">
+                <a
+                  class="nav-link pg1 active pages_1 link_header"
+                  aria-current="page"
+                  href="contactus.html"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item px-2 d-flex align-items-center">
+                <a
+                  class="nav-link pg1 active pages_1 link_header"
+                  aria-current="page"
+                  href="#"
+                  >Help</a
+                >
+              </li>
+
+              <li class="nav-item px-2 d-flex align-items-center">
+                <a
+                  class="nav-link pg1 active pages_1 link_header"
+                  aria-current="page"
+                  href="#"
+                  >Blogs</a
+                >
+              </li>
+              <li class="nav-item px-2 d-flex align-items-center">
+                <a class="nav-link pg1 Sign_up" href="#">Sign Up</a>
+              </li>
+              <li class="nav-item px-2 d-flex align-items-center">
+                <a class="nav-link btn btn-success py-2 px-4 btn_color" href="#"
+                  >Log in</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- <div class="d-flex p-2 header_top_container"> -->
+      <!-- <div class="d-flex p-2 responsev"><img src="images/menu_icon.png" alt=""></div> -->
+      <!-- <div class="d-flex justify-content-end">
+              <div class="mr-auto p-2">
+                <span><a href="">Home</a></span>
+              </div>
+              <div class="p-2">
+                <span><a href="">How tere works</a></span>
+              </div>
+              <div class="p-2">
+                <span><a href="">Tere benefits</a></span>
+              </div>
+              <div class="p-2">
+              <button type="button" class="btn btn-outline-primary">
+                Help Center
+              </button></div>
+            </div> -->
+      <!-- </div> -->
+      <!-- </div> -->
+    </header>
+    <section class="section1">
+      <div class="container g-0">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-8">
+            <div class="py-5">
+              <h1 class="py-3">Meet the Best Hospital</h1>
+              <p class="sec1_services_paragraph">
+                We know how large objects will act, but things on a small scale.
+              </p>
+              <div>
+                <button
+                  type="button"
+                  class="btn btn-success py-3 px-4 rounded-5 main_slides_button"
+                >
+                  Get Quote Now
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-success py-3 px-4 rounded-5 btn_main_service_color"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-4">
+            <div class="sec1_mainslide2">
+              <h3 class="py-4">Book Appointments</h3>
+              <p class="input_heading ps-5">Name *</p>
+              <div class="input-group flex-nowrap main_slides_input ps-5">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Full Name"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+              <p class="input_heading ps-5 pt-3">Email address *</p>
+              <div class="input-group flex-nowrap main_slides_input ps-5">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="example@gmail.com"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+              <p class="input_heading ps-5 pt-3">Departement *</p>
+              <div class="input-group mb-3 main_slides_input ps-5">
+                <select class="form-select" id="inputGroupSelect01">
+                  <option selected>Please Select</option>
+                  <option value="1">Dentist</option>
+                  <option value="2">Surgery</option>
+                  <option value="3">Eye care</option>
+                </select>
+              </div>
+              <p class="input_heading ps-5 pt-2">Time *</p>
+              <div class="input-group mb-3 main_slides_input ps-5 pb-3">
+                <select class="form-select" id="inputGroupSelect01">
+                  <option selected>4:00 Available</option>
+                  <option value="1">3:00 PM</option>
+                  <option value="2">2:00 PM</option>
+                  <option value="3">12:30 PM</option>
+                </select>
+              </div>
+              <div class="d-grid gap-2 col-6 mx-auto pb-5">
+                <button
+                  class="btn btn-primary main_slides_button"
+                  type="button"
+                >
+                  Book Appointment
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section2 py-5">
+      <div class="container g-0 bg-white rounded-5 py-2">
+        <div class="pt-4 pb-4 ps-4">
+          <h2>Find a Doctor</h2>
+        </div>
+        <div class="row pb-4">
+          <div class="col-md-3">
+            <div class="px-3 py-2">
+              <input class="name_input_1 px-3" type="text" placeholder="Name" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="px-3 py-2">
+              <input
+                class="name_input_2 px-3"
+                type="text"
+                placeholder="Speciality"
+              />
+            </div>
+          </div>
+          <div class="col-md-3 d-flex justify-content-center">
+            <div class="d-flex align-items-center slider_button_1_response">
+              <h6 class="d-inline-block">Available</h6>
+              <label class="switch pe-5">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="btn_search_response">
+              <button type="button" class="btn btn-success py-2 px-5 fs-5">
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section3">
+      <div class="container">
+        <h1 class="text-center care_color">Services we provide</h1>
+        <p class="sec5_text_heading pb-5">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar
+          elementum tempus hac tellus libero accumsan.
+        </p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="sec5_card1">
+              <img
+                src="Images/Container.png"
+                alt=""
+                class="img-fluid py-4 px-5"
+              />
+              <h5 class="care_color py-2 ps-2">Dental treatments</h5>
+              <p class="Sec5_card_1_paragraph ps-2">
+                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+                dalaracc lacus vel facilisis volutpat est velitolm.
+              </p>
+              <p class="ps-2 py-4 care_color fs-5">Learn more →</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="sec5_card1">
+              <img
+                src="Images/Container (1).png"
+                alt=""
+                class="img-fluid py-4 px-5"
+              />
+              <h5 class="care_color py-2 ps-2">Bones treatments</h5>
+              <p class="Sec5_card_1_paragraph ps-2">
+                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+                dalaracc lacus vel facilisis volutpat est velitolm.
+              </p>
+              <p class="ps-2 py-4 care_color fs-5">Learn more →</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="sec5_card1">
+              <img
+                src="Images/Container (2).png"
+                alt=""
+                class="img-fluid py-4 px-5"
+              />
+              <h5 class="care_color py-2 ps-2">Diagnosis</h5>
+              <p class="Sec5_card_1_paragraph ps-2">
+                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+                dalaracc lacus vel facilisis volutpat est velitolm.
+              </p>
+              <p class="ps-2 py-4 care_color fs-5">Learn more →</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="sec5_card1">
+              <img
+                src="Images/Container (3).png"
+                alt=""
+                class="img-fluid py-4 px-5"
+              />
+              <h5 class="care_color py-2 ps-2">Cardiology</h5>
+              <p class="Sec5_card_1_paragraph ps-2">
+                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+                dalaracc lacus vel facilisis volutpat est velitolm.
+              </p>
+              <p class="ps-2 py-4 care_color fs-5">Learn more →</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="sec5_card1">
+              <img
+                src="Images/Container (4).png"
+                alt=""
+                class="img-fluid py-4 px-5"
+              />
+              <h5 class="care_color py-2 ps-2">Surgery</h5>
+              <p class="Sec5_card_1_paragraph ps-2">
+                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+                dalaracc lacus vel facilisis volutpat est velitolm.
+              </p>
+              <p class="ps-2 py-4 care_color fs-5">Learn more →</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="sec5_card1">
+              <img
+                src="Images/Container (5).png"
+                alt=""
+                class="img-fluid py-4 px-5"
+              />
+              <h5 class="care_color py-2 ps-2">Eye care</h5>
+              <p class="Sec5_card_1_paragraph ps-2">
+                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+                dalaracc lacus vel facilisis volutpat est velitolm.
+              </p>
+              <p class="ps-2 py-4 care_color fs-5">Learn more →</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section4">
+      <div class="container">
+        <div class="py-5">
+          <h1 class="care_color text-center">What our customers say</h1>
+          <p class="services_sec4_text_heading text-center">
+            Problems trying to resolve the conflict between the two major realms
+            of Classical physics: Newtonian mechanics
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 py-4">
+            <div class="bg-white rounded-5">
+              <div class="ps-4 py-4">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-regular fa-star" style="color: #ffbb00"></i>
+              </div>
+              <p class="sec4_services_paragraph_one_col py-2 ps-4">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal.
+              </p>
+              <img src="Images/user.1.jpg" alt="" class="img-fluid py-2 ps-4" />
+            </div>
+          </div>
+          <div class="col-md-4 py-4">
+            <div class="bg-white rounded-5">
+              <div class="ps-4 py-4">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-regular fa-star" style="color: #ffbb00"></i>
+              </div>
+              <p class="sec4_services_paragraph_one_col py-2 ps-4">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal.
+              </p>
+              <img src="Images/user.2.jpg" alt="" class="img-fluid py-2 ps-4" />
+            </div>
+          </div>
+          <div class="col-md-4 py-4">
+            <div class="bg-white rounded-5">
+              <div class="ps-4 py-4">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-regular fa-star" style="color: #ffbb00"></i>
+              </div>
+              <p class="sec4_services_paragraph_one_col py-2 ps-4">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal.
+              </p>
+              <img src="Images/user.3.jpg" alt="" class="img-fluid py-2 ps-4" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section5">
+      <div class="container">
+        <div class="py-5">
+          <h1 class="text-center">FAQ</h1>
+          <p class="services_sec5_text_heading text-center px-5">
+            Problems trying to resolve the conflict between the two major realms
+            of Classical physics: Newtonian mechanics
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="services_sec5_col_one bg-white px-4 rounded-4">
+              <i
+                class="fa-solid fa-greater-than icon_greater_than"
+                style="color: #0830f7"
+              ></i>
+              <p class="services_sec5_para ps-4 pt-4">
+                the quick fox jumps over the lazy dog
+              </p>
+              <p class="services_sec5_para2 ps-4 pb-4">
+                Things on a very small scale behave like nothing
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="services_sec5_col_one bg-white px-4 rounded-4">
+              <i
+                class="fa-solid fa-greater-than icon_greater_than"
+                style="color: #0830f7"
+              ></i>
+              <p class="services_sec5_para ps-4 pt-4">
+                the quick fox jumps over the lazy dog
+              </p>
+              <p class="services_sec5_para2 ps-4 pb-4">
+                Things on a very small scale behave like nothing
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="services_sec5_col_one bg-white px-4 rounded-4">
+              <i
+                class="fa-solid fa-greater-than icon_greater_than"
+                style="color: #0830f7"
+              ></i>
+              <p class="services_sec5_para ps-4 pt-4">
+                the quick fox jumps over the lazy dog
+              </p>
+              <p class="services_sec5_para2 ps-4 pb-4">
+                Things on a very small scale behave like nothing
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="services_sec5_col_one bg-white px-4 rounded-4">
+              <i
+                class="fa-solid fa-greater-than icon_greater_than"
+                style="color: #0830f7"
+              ></i>
+              <p class="services_sec5_para ps-4 pt-4">
+                the quick fox jumps over the lazy dog
+              </p>
+              <p class="services_sec5_para2 ps-4 pb-4">
+                Things on a very small scale behave like nothing
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="services_sec5_col_one bg-white px-4 rounded-4">
+              <i
+                class="fa-solid fa-greater-than icon_greater_than"
+                style="color: #0830f7"
+              ></i>
+              <p class="services_sec5_para ps-4 pt-4">
+                the quick fox jumps over the lazy dog
+              </p>
+              <p class="services_sec5_para2 ps-4 pb-4">
+                Things on a very small scale behave like nothing
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="services_sec5_col_one bg-white px-4 rounded-4">
+              <i
+                class="fa-solid fa-greater-than icon_greater_than"
+                style="color: #0830f7"
+              ></i>
+              <p class="services_sec5_para ps-4 pt-4">
+                the quick fox jumps over the lazy dog
+              </p>
+              <p class="services_sec5_para2 ps-4 pb-4">
+                Things on a very small scale behave like nothing
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="services_sec5_col_one bg-white px-4 rounded-4">
+              <i
+                class="fa-solid fa-greater-than icon_greater_than"
+                style="color: #0830f7"
+              ></i>
+              <p class="services_sec5_para ps-4 pt-4">
+                the quick fox jumps over the lazy dog
+              </p>
+              <p class="services_sec5_para2 ps-4 pb-4">
+                Things on a very small scale behave like nothing
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="services_sec5_col_one bg-white px-4 rounded-4">
+              <i
+                class="fa-solid fa-greater-than icon_greater_than"
+                style="color: #0830f7"
+              ></i>
+              <p class="services_sec5_para ps-4 pt-4">
+                the quick fox jumps over the lazy dog
+              </p>
+              <p class="services_sec5_para2 ps-4 pb-4">
+                Things on a very small scale behave like nothing
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="services_sec5_col_one bg-white px-4 rounded-4">
+              <i
+                class="fa-solid fa-greater-than icon_greater_than"
+                style="color: #0830f7"
+              ></i>
+              <p class="services_sec5_para ps-4 pt-4">
+                the quick fox jumps over the lazy dog
+              </p>
+              <p class="services_sec5_para2 ps-4 pb-4">
+                Things on a very small scale behave like nothing
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section6">
+      <div class="container py-4">
+        <h1 class="text-center">Subscribe to our newsletter</h1>
+        <div class="row">
+          <div class="col-md-12 py-3">
+            <div class="d-flex justify-content-center">
+              <input
+                class="px-4 py-3 sec9_input border-0 rounded-4"
+                type="text"
+                placeholder="Name"
+              />
+              <div class="px-4">
+                <button
+                  type="button"
+                  class="btn btn-success py-3 px-4 rounded-4 px-4"
+                >
+                  Get started
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container g-0 py-3">
+        <div class="row g-0 flex-wrap">
+          <div class="d-flex flex-wrap">
+            <div class="col-md-4 pt-5">
+              <div class="footer_one_side">
+                <ul>
+                  <li>
+                    <img
+                      src="Images/footer2.png"
+                      alt=""
+                      class="img-fluid pb-3"
+                    />
+                  </li>
+                  <li class="lh-base">
+                    <p>Copyright © 2022 BRIX Templates | All Rights Reserved</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2 pt-5">
+              <div class="footer_two_side">
+                <ul>
+                  <li class="fs-4 pb-4 fw-bold">Product</li>
+                  <li>Features</li>
+                  <li>Pricing</li>
+                  <li>Case studies</li>
+                  <li>Reviews</li>
+                  <li>Updates</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2 pt-5">
+              <div class="footer_three_side">
+                <ul>
+                  <li class="fs-4 pb-4 fw-bold">Company</li>
+                  <li>About</li>
+                  <li>Contact Us</li>
+                  <li>Careers</li>
+                  <li>Culture</li>
+                  <li>Blog</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2 pt-5">
+              <div class="footer_four_side">
+                <ul>
+                  <li class="fs-4 pb-4 fw-bold">Support</li>
+                  <li>Getting started</li>
+                  <li>Help center</li>
+                  <li>Server status</li>
+                  <li>Report a bug</li>
+                  <li>Chat support</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2 pt-5">
+              <div class="footer_five_side">
+                <ul>
+                  <li class="fs-4 pb-4 fw-bold">Follow us</li>
+                  <li>
+                    <i class="fa-brands fa-facebook-f footer_icon px-2 py-1"></i
+                    ><span class="px-2">Facebook</span>
+                  </li>
+                  <li>
+                    <i
+                      class="fa-brands fa-square-x-twitter footer_icon px-2 py-1"
+                    ></i
+                    ><span class="px-2">Twitter</span>
+                  </li>
+                  <li>
+                    <i class="fa-brands fa-instagram footer_icon px-2 py-1"></i
+                    ><span class="px-2">Instagram</span>
+                  </li>
+                  <li>
+                    <i class="fa-brands fa-linkedin footer_icon px-2 py-1"></i
+                    ><span class="px-2">Linkdin</span>
+                  </li>
+                  <li>
+                    <i class="fa-brands fa-youtube footer_icon px-2 py-1"></i
+                    ><span class="px-2">Youtube</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
